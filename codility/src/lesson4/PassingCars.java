@@ -40,12 +40,10 @@ package lesson4;
 //each element of array A is an integer that can have one of the following values: 0, 1.
 
 public class PassingCars {
-	
 	 public int solution(int[] A) {
 	        // write your code in Java SE 8
 	        int zeroCount = 0;
 	        int count = 0;
-	        int zz = 0;
 	        
 	        for(int i = 0; i < A.length; i++) {
 	            if(A[i] == 0) {
@@ -56,7 +54,6 @@ public class PassingCars {
 	                }
 	            }
 	        }   
-	        
 	        
 	        if(count > 1000000000 || count < 0) return -1;
 	        else return count;
