@@ -4,7 +4,6 @@ public class PassingCars {
 	
 	 public int solution(int[] A) {
 	        // write your code in Java SE 8
-	        int oneCount = 0;
 	        int zeroCount = 0;
 	        int count = 0;
 	        
@@ -13,8 +12,7 @@ public class PassingCars {
 	                zeroCount++;
 	            } else {
 	                if(zeroCount != 0) {
-	                    oneCount = 1;
-	                    count += zeroCount * oneCount;
+	                    count += zeroCount;
 	                }
 	            }
 	        }
