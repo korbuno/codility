@@ -6,7 +6,6 @@ public class PassingCars {
 	        // write your code in Java SE 8
 	        int zeroCount = 0;
 	        int count = 0;
-	        int why = 0;
 	        
 	        for(int i = 0; i < A.length; i++) {
 	            if(A[i] == 0) {
